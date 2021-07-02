@@ -1,0 +1,147 @@
+*
+{
+   
+margin:0;
+padding: 0;
+}
+header{ 
+    background-image: url(./images/shuzi.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+ .menus ul{
+float: right;
+list-style: none;
+color:rgb(255, 255, 255);
+margin-top: 40px;
+
+
+}
+.menus ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.menus ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menus ul li.active a{
+    border: 1px solid white;
+}
+.menus ul li a:hover{
+    color: darkorange;
+    border-radius: 5%;
+    border: 2px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 5px;
+}
+ .ready {
+margin-top: 0;
+margin-left: 0;
+position: absolute;
+}
+.ready h1{
+    font-size: 50px;
+    color: rgb(235, 12, 12);
+    margin-top: 300px;
+    margin-left: 250px;
+}
+.button{
+    width: 400px;
+    float: left;
+   margin-left: 300px;
+}
+.button a{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+.view {
+background-color:rgb(6, 94, 89);
+border: 1px solid white;
+}
+.view:hover{
+    background-color: rgb(252, 249, 249);
+    color: black;
+
+}
+
+.container{
+    display:flex;
+    width:97%;
+    height: 100%;
+    background-color:darkorange;
+   padding: 20px; 
+}
+.carte{
+    background-color: teal;
+    width: 97%;
+   
+
+}
+.carte p{
+    font-size: 20px;
+}
+.carte:hover{
+    background-color:gray;
+    transition: all 1s ease;
+    transform: scale(1.03);
+    border-radius: 10px;
+}
+.card{
+    padding:5px;   
+}
+
+.carte h2{
+font-size: 20px;
+color:white;
+text-align: center;
+}
+.carte a{
+  margin-left: 90px;
+    font-size: 20px;
+  color: white;
+  border:3px solid white;
+  background-color: darkorange;
+text-decoration: none;
+}
+.container2{
+    background-color: teal;
+    width: 100%;
+    display: flex;
+    
+}
+.top{
+    padding: 5px;
+    margin-top: 20px;
+}
+.top-image img{
+border-radius: 20px;
+}
+.top p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+   font-style: italic;
+font-weight: 800;
+}
+
+.footer p{
+    float: left;
+    padding: 5px;
+    margin-left: 100px;
+}
+.footer h3{
+   text-align: center;
+   text-transform: capitalize;
+   
+}
+
